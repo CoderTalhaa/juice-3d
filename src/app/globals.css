@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+@font-face {
+  font-family: "economica";
+  src: url("/economica.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "obra";
+  src: url("/obra.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ff9d5c;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+.rectangle1 {
+  position: absolute;
+
+  width: 283px;
+  height: 485px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+.rectangle2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 323px;
+  height: 523px;
+  border-radius: 20px;
+  border: 2px dashed #ffffff;
+}
+
